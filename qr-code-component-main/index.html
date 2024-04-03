@@ -17,7 +17,7 @@
     <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
     <style>
       @font-face {
-        font-family: Outfit;
+        font-family: "Outfit";
         src: url(https://fonts.google.com/specimen/Outfit);
       }
       .attribution {
@@ -28,7 +28,7 @@
         color: hsl(228, 45%, 44%);
       }
       body {
-        font-family: Outfit;
+        font-family: "Outfit", sans-serif;
         background: hsl(212, 45%, 89%);
         font-size: 15px;
       }
@@ -39,11 +39,12 @@
       .container {
         width: 16%;
         height: 25%;
-        margin: 50px auto;
+        margin: 5rem auto 10px;
         background: hsl(0, 0%, 100%);
         padding: 10px;
         border-radius: 15px;
         text-align: center;
+        place-self: center;
       }
 
       .container img {
@@ -54,12 +55,15 @@
       h3 {
         font-weight: 700;
       }
+      span {
+        text-wrap: nowrap;
+      }
     </style>
   </head>
   <body>
     <div class="container">
       <img src="images/image-qr-code.png" />
-      <h3>Improve your front-end skills by building projects</h3>
+      <h3>Improve your <span>front-end</span> skills by building projects</h3>
       <p>
         Scan the QR code to visit Frontend Mentor and take your coding skills to
         the next level
