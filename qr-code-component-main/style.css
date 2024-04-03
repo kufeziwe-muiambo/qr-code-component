@@ -27,6 +27,7 @@ p {
   border-radius: 15px;
   text-align: center;
   place-self: center;
+  box-shadow: 0 0 3px 3px hsl(0, 0%, 100%);
 }
 
 .container img {
